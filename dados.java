@@ -32,9 +32,7 @@ public class dados{
 
     public void calcula(){
 
-        altura = altura * altura;
-        resultado = peso/altura; 
-
+        resultado = peso/(altura*altura); 
     }
 
 }

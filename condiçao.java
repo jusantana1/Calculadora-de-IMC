@@ -8,22 +8,21 @@ public class condiçao extends dados {
         String a,b;
         double x, y; 
 
+        JOptionPane.showMessageDialog (null, "*Calculadora de IMC*");
+
         a = JOptionPane.showInputDialog(null, "Digite sua altura: ");
         b = JOptionPane.showInputDialog(null, "Digite seu peso: ");
       
-       
         x = Double.parseDouble(a);
         y = Double.parseDouble(b);
-
-        dados.calcula();
 
         dados.setAltura(x);
         dados.setPeso(y);
         
-       dados.calcula();
+        dados.calcula();
         calcula();
 
-        String msg = String.format("Resultado: %.2f", dados.getResultado());
+        String msg = String.format("Resultado: %.2f", dados.getResultado()); // delimitar as casas decimais no JoptionPane.
 
         JOptionPane.showMessageDialog (null, msg);
 
