@@ -1,3 +1,4 @@
+
 public class dados{
  
     private double altura;
@@ -7,8 +8,7 @@ public class dados{
     // construtor 
     public dados (){
         altura = 0;
-        peso = 0;
-        resultado =0; 
+        peso = 0; 
     }
      public void setAltura(double altura){
         this.altura = altura;
@@ -17,7 +17,7 @@ public class dados{
     public double getAltura(){
         return altura;
     }
-      public void setPeso(double peso){
+    public void setPeso(double peso){
         this.peso = peso;
     }
     public double getPeso(){

@@ -1,6 +1,7 @@
-public class main extends exibe{
+
+public class main extends condiçao{
     public static void main (String [] args) {
         
-        exibe exibe = new exibe();     
+        condiçao condiçao = new condiçao();     
     }
 }
