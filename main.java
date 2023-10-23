@@ -1,6 +1,6 @@
-public class main extends mostra{
+public class main extends exibe{
     public static void main (String [] args) {
         
-        mostra mostra = new mostra(); 
+        exibe exibe = new exibe();     
     }
 }

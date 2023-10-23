@@ -4,6 +4,7 @@ public class dados{
     private double peso; 
     private double resultado;
 
+    // construtor 
     public dados (){
         altura = 0;
         peso = 0;
